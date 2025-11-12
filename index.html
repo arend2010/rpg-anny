@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<title>título da sua história</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Noite de Sábado</title>
+
+    <!-- Fonte Merriweather -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <main>
-<div class="passo ativo" id="passo-0">
-<p>PASSO 0 DA SUA HISTÓRIA</p>
-<button class="btn-proximo" data-proximo="1"> PASSO 01 DA SUA HISTÓRIA </button>
-<button class="btn-proximo" data-proximo="2"> PASSO 02 DA SUA HISTÓRIA </button>
-</div>
+    <div class="passo ativo" id="passo-0">
+        <p>É sábado à noite. Você está em casa e recebe uma mensagem: seus amigos estão combinando algo. O que você faz?</p>
+        <button class="btn-proximo" data-proximo="1">Ir para a casa da avó</button>
+        <button class="btn-proximo" data-proximo="2">Ficar em casa jogando</button>
+    </div>
+
+    <div class="passo" id="passo-1">
+        <p>Você chega na casa da sua avó. Ela te recebe com um abraço, bolo e chá.</p>
+        <button class="btn-proximo" data-proximo="3">Ouvir as histórias dela</button>
+        <button class="btn-proximo" data-proximo="4">Mexer no celular enquanto ela fala</button>
+    </div>
+
+    <div class="passo" id="passo-2">
+        <p>Você liga o videogame e começa a jogar. Um amigo te chama pra jogar online.</p>
+        <button class="btn-proximo" data-proximo="5">Jogar a noite toda</button>
+        <button class="btn-proximo" data-proximo="6">Parar e dormir cedo</button>
+    </div>
+
+    <div class="passo" id="passo-3">
+        <p>Você ouve as histórias da sua avó e aprende muito sobre sua família.</p>
+        <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+    </div>
+
+    <div class="passo" id="passo-4">
+        <p>Sua avó percebe que você está distraído e fica um pouco triste.</p>
+        <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+    </div>
+
+    <div class="passo" id="passo-5">
+        <p>Você joga até tarde e se diverte muito, mas acorda cansado no dia seguinte.</p>
+        <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+        <p>Você dorme cedo e acorda descansado e feliz.</p>
+        <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
+    </div>
 </main>
+
+<script src="script.js"></script>
 </body>
 </html>
